@@ -1,11 +1,11 @@
 // ===== 应用状态管理 =====
 const AppState = {
     zoom: 100,
-    background: 'gradient1',
+    background: 'gradient2',
     fontSize: 18,
     padding: 40,
     width: 640,
-    mode: 'free', // 'free' | 'xhs' | 'pyq'
+    mode: 'xhs', // 'free' | 'xhs' | 'pyq'
     fixedHeights: { xhs: null, pyq: null }
 };
 
@@ -751,7 +751,7 @@ const EXPORT_SCALE = getPreferredExportScale();
 // 预设背景渐变
 const backgroundPresets = {
     gradient1: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-    gradient2: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+    gradient2: 'linear-gradient(135deg, #9BABF3 0%, #44A1F8 100%)',
     gradient3: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
     gradient4: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
     gradient5: 'linear-gradient(135deg, #fa709a 0%, #fee140 100%)',
