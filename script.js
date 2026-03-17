@@ -5,7 +5,7 @@ const AppState = {
     fontSize: 18,
     padding: 40,
     width: 640,
-    mode: 'xhs', // 'free' | 'xhs' | 'pyq'
+    mode: 'free', // 'free' | 'xhs' | 'pyq'
     fixedHeights: { xhs: null, pyq: null }
 };
 
